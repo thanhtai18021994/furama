@@ -1,0 +1,100 @@
+<div class="container-fluid">
+  <div class="container-fluid mb-3">
+    <button class="btn btn-primary" [routerLink]="['/employee',{
+      outlets:{'employee':['create']}}]">Tạo Mới
+    </button>
+  </div>
+  <div class="container-fluid bg-white pt-3 pb-3">
+    <h3 class="title-component text-dark" (click)="getListCustomer()">Danh sách khách hàng</h3>
+    <div class="mb-3 d-flex justify-content-between">
+      <input type="text" class="form-control col-4 border-info" placeholder="Tìm Kiếm ..."
+             (input)="searchAllField(element.value)" #element>
+      <div class="col-6 row row-header">
+
+        <button type="button" class="btn btn-primary ml-auto" (click)="controlModal()">
+          <span><i class="las la-filter"></i></span> <span>Bộ lọc</span>
+        </button>
+
+        <div class="private-modal" [ngStyle]="{'display':flag?'block':'none'}">
+          <div class="overlay" (click)="controlModal()"></div>
+          <div class="body-modal">
+            <div class="row border-bottom border-info pb-3" style="font-size: 16px;font-weight: bold">Bộ Lọc</div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name">Họ và tên:</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="phone">Số cmnd:</label>
+                <input type="text" class="form-control" id="phone">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="position">Chức Vụ</label>
+                <select id="position" class="form-control" #position>
+                  <option selected [value]=null>Choose...</option>
+                  <option></option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="education">Bằng cấp</label>
+                <select id="education" class="form-control" #education>
+                  <option selected [value]=null>Choose...</option>
+                  <option></option>
+                </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="departments">Bộ phận</label>
+                <select id="departments" class="form-control" #department>
+                  <option selected [value]=null>Choose...</option>
+                  <option></option>
+                </select>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" (click)="search(position.value,education.value,department.value)">Tìm kiếm</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <table class="table table-hover">
+      <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Tên Nhân Viên</th>
+        <th scope="col">Chức Vụ</th>
+        <th scope="col">Bộ phận</th>
+        <th scope="col" colspan="3" style="text-align: center">Thao tác</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let item of customers|paginate: { itemsPerPage: 5, currentPage: p};index as i">
+        <th scope="row">{{i + 1}}</th>
+        <td>{{item.customerName}}</td>
+        <td>{{item.customerEmail}}</td>
+        <td>{{item.customerPhone}}</td>
+        <td>
+          <button class="btn btn-primary"
+                  [routerLink]="['/employee',{outlets:{'employee':['view',item.customerId]}}]">
+            <span style="margin-right: 10px"><i class="las la-eye"></i></span><span>Xem</span>
+          </button>
+        </td>
+        <td>
+          <button class="btn btn-warning"
+                  [routerLink]="['/employee',{outlets:{'employee':['update',item.customerId]}}]">
+            <span style="margin-right: 10px">
+              <i class="las la-edit"></i></span><span>Sửa</span></button>
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="delete(item.customerId)"><span style="margin-right: 10px"><i
+            class="las la-trash"></i></span><span>Xóa</span></button>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  </div>
+</div>

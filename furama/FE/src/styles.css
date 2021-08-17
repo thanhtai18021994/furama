@@ -1,0 +1,21 @@
+:root {
+  --main-color: #04aa6d;
+  --color-dark: #1D2231;
+  --text-grey: #8390A2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+.title-component{
+  font-size: 24px;
+  color: var(--main-color);
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,516 @@
+{
+  "employee": [
+    {
+      "name": "Nguyen Huy",
+      "birthday": "1991-08-07",
+      "idCard": "208888899",
+      "salary": 900,
+      "phoneNumber": "0333571999",
+      "email": "huynguyen@gmail.com",
+      "address": "Hoang Dieu",
+      "education": "B",
+      "position": "staff",
+      "department": "Kitchen",
+      "id": 6
+    },
+    {
+      "name": "Tran Gia Khanh",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Manager",
+      "department": "Kitchen",
+      "id": 8
+    },
+    {
+      "name": "Tran Gia Manh",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 9
+    },
+    {
+      "name": "Que Ngoc Hai",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 10
+    },
+    {
+      "name": "Cong Phuong",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 11
+    },
+    {
+      "name": "Van Toan",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 12
+    },
+    {
+      "name": "Van Toan",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 13
+    },
+    {
+      "name": "Van Toan",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 14
+    },
+    {
+      "name": "Van Toan",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 15
+    },
+    {
+      "name": "Van Toan",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen",
+      "id": 16
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-15",
+      "idCard": "191830363",
+      "salary": "112",
+      "phoneNumber": "09111111111",
+      "email": "thanhtai18021994@gmail.com",
+      "address": "đà nẵng",
+      "education": "A",
+      "position": "staff",
+      "department": "Kitchen",
+      "id": 18
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-15",
+      "idCard": "191830363",
+      "salary": "112",
+      "phoneNumber": "09111111111",
+      "email": "thanhtai18021994@gmail.com",
+      "address": "đà nẵng",
+      "education": "A",
+      "position": "staff",
+      "department": "Kitchen",
+      "id": 19
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-15",
+      "idCard": "11111111111",
+      "salary": "11111",
+      "phoneNumber": "09111111111",
+      "email": "admin@gmail.com",
+      "address": "Đà Nẵng",
+      "education": "A",
+      "position": "staff",
+      "department": "F$B",
+      "id": 20
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-13",
+      "idCard": "11111111111",
+      "salary": "11111",
+      "phoneNumber": "09111111111",
+      "email": "admin@gmail.com",
+      "address": "Quang NAm",
+      "education": "B",
+      "position": "Demi Chef",
+      "department": "Kitchen",
+      "id": 21
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-21",
+      "idCard": "11111111111",
+      "salary": "11111",
+      "phoneNumber": "09111111111",
+      "email": "thanhtai18021994@gmail.com",
+      "address": "Đà Nẵng",
+      "education": "A",
+      "position": "staff",
+      "department": "Kitchen",
+      "id": 22
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-16",
+      "idCard": "11111111111",
+      "salary": "11111",
+      "phoneNumber": "09111111161",
+      "email": "thanhtai18021994@gmail.com",
+      "address": "Quang NAm",
+      "education": "A",
+      "position": "staff",
+      "department": "FO",
+      "id": 23
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-23",
+      "idCard": "11111111111",
+      "salary": "11111",
+      "phoneNumber": "09111111111",
+      "email": "thanhtai18021994@gmail.com",
+      "address": "Đà Nẵng",
+      "education": "A",
+      "position": "staff",
+      "department": "Kitchen",
+      "id": 24
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-17",
+      "idCard": "11111111111",
+      "salary": "11111",
+      "phoneNumber": "09111111111",
+      "email": "admin@gmail.com",
+      "address": "Đà Nẵng",
+      "education": "B",
+      "position": "Demi Chef",
+      "department": "Kitchen",
+      "id": 25
+    },
+    {
+      "name": "Thành Tài",
+      "birthday": "2021-07-08",
+      "idCard": "11111111111",
+      "salary": "1111",
+      "phoneNumber": "09111111111",
+      "email": "admin@gmail.com",
+      "address": "Đà Nẵng",
+      "education": "B",
+      "position": "staff",
+      "department": "Kitchen",
+      "id": 26
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Tran Gia Khanh",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen"
+    },
+    {
+      "id": 2,
+      "name": "Tran Gia Huy Hoang",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen"
+    },
+    {
+      "id": 3,
+      "name": "Bui thanh tai",
+      "birthday": "1992-06-16",
+      "idCard": "2077665544",
+      "salary": 2000,
+      "phoneNumber": "0908999999",
+      "email": "sangle@gmail.com",
+      "address": "Da Nang",
+      "education": "A",
+      "position": "Supervisor",
+      "department": "Kitchen"
+    }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "name": "staff"
+    },
+    {
+      "id": 2,
+      "name": "Demi Chef"
+    },
+    {
+      "id": 3,
+      "name": "Supervisor"
+    },
+    {
+      "id": 4,
+      "name": "Manager"
+    }
+  ],
+  "education-degrees": [
+    {
+      "id": 1,
+      "name": "A"
+    },
+    {
+      "id": 2,
+      "name": "B"
+    },
+    {
+      "id": 3,
+      "name": "C"
+    },
+    {
+      "id": 4,
+      "name": "D"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "Kitchen"
+    },
+    {
+      "id": 2,
+      "name": "F$B"
+    },
+    {
+      "id": 3,
+      "name": "FO"
+    },
+    {
+      "id": 4,
+      "name": "HK"
+    }
+  ],
+  "contracts": [
+    {
+      "id": 1,
+      "employee": {
+        "name": "Nguyen Huy",
+        "birthday": "1991-08-07",
+        "idCard": "208888899",
+        "salary": 900,
+        "phoneNumber": "0333571999",
+        "email": "huynguyen@gmail.com",
+        "address": "Hoang Dieu",
+        "education": "B",
+        "position": "staff",
+        "department": "Kitchen",
+        "id": 6
+      },
+      "customer": {
+        "id": 1,
+        "name": "Tran Gia Khanh",
+        "birthday": "1992-06-16",
+        "idCard": "2077665544",
+        "salary": 2000,
+        "phoneNumber": "0908999999",
+        "email": "sangle@gmail.com",
+        "address": "Da Nang",
+        "education": "A",
+        "position": "Supervisor",
+        "department": "Kitchen"
+      },
+      "service": {
+        "id": 1,
+        "nameService": "Dịch vụ A",
+        "area": 32,
+        "numberFloor": 12,
+        "maxPeople": 5,
+        "rentRoom": 4000,
+        "status": true
+      },
+      "dateStart": "12/12/2020",
+      "dateEnd": "14/12/2021",
+      "deposits": 1000,
+      "total": 4000
+    },
+    {
+      "id": 2,
+      "employee":  {
+        "name": "Tran Gia Khanh",
+        "birthday": "1992-06-16",
+        "idCard": "2077665544",
+        "salary": 2000,
+        "phoneNumber": "0908999999",
+        "email": "sangle@gmail.com",
+        "address": "Da Nang",
+        "education": "A",
+        "position": "Manager",
+        "department": "Kitchen",
+        "id": 8
+      },
+      "customer": {
+        "id": 1,
+        "name": "Tran Gia Khanh",
+        "birthday": "1992-06-16",
+        "idCard": "2077665544",
+        "salary": 2000,
+        "phoneNumber": "0908999999",
+        "email": "sangle@gmail.com",
+        "address": "Da Nang",
+        "education": "A",
+        "position": "Supervisor",
+        "department": "Kitchen"
+      },
+      "service": {
+        "id": 2,
+        "nameService": "Dịch vụ B",
+        "area": 32,
+        "numberFloor": 12,
+        "maxPeople": 5,
+        "rentRoom": 4000,
+        "status": true
+      },
+      "dateStart": "12/12/2020",
+      "dateEnd": "14/12/2021",
+      "deposits": 1000,
+      "total": 4000
+    },
+    {
+      "id": 3,
+      "employee": {
+        "name": "Nguyen Huy",
+        "birthday": "1991-08-07",
+        "idCard": "208888899",
+        "salary": 900,
+        "phoneNumber": "0333571999",
+        "email": "huynguyen@gmail.com",
+        "address": "Hoang Dieu",
+        "education": "B",
+        "position": "staff",
+        "department": "Kitchen",
+        "id": 6
+      },
+      "customer": {
+        "id": 1,
+        "name": "Tran Gia Khanh",
+        "birthday": "1992-06-16",
+        "idCard": "2077665544",
+        "salary": 2000,
+        "phoneNumber": "0908999999",
+        "email": "sangle@gmail.com",
+        "address": "Da Nang",
+        "education": "A",
+        "position": "Supervisor",
+        "department": "Kitchen"
+      },
+      "service": {
+        "id": 1,
+        "nameService": "Dịch vụ A",
+        "area": 32,
+        "numberFloor": 12,
+        "maxPeople": 5,
+        "rentRoom": 4000,
+        "status": true
+      },
+      "dateStart": "12/12/2020",
+      "dateEnd": "14/12/2021",
+      "deposits": 1000,
+      "total": 4000
+    },
+    {
+      "id": 1,
+      "employee":{
+        "name": "Van Toan",
+        "birthday": "1992-06-16",
+        "idCard": "2077665544",
+        "salary": 2000,
+        "phoneNumber": "0908999999",
+        "email": "sangle@gmail.com",
+        "address": "Da Nang",
+        "education": "A",
+        "position": "Supervisor",
+        "department": "Kitchen",
+        "id": 13
+      },
+      "customer": {
+        "id": 1,
+        "name": "Tran Gia Khanh",
+        "birthday": "1992-06-16",
+        "idCard": "2077665544",
+        "salary": 2000,
+        "phoneNumber": "0908999999",
+        "email": "sangle@gmail.com",
+        "address": "Da Nang",
+        "education": "A",
+        "position": "Supervisor",
+        "department": "Kitchen"
+      },
+      "service": {
+        "id": 1,
+        "nameService": "Dịch vụ A",
+        "area": 32,
+        "numberFloor": 12,
+        "maxPeople": 5,
+        "rentRoom": 4000,
+        "status": true
+      },
+      "dateStart": "12/12/2020",
+      "dateEnd": "14/12/2021",
+      "deposits": 1000,
+      "total": 4000
+    }
+  ]
+}
